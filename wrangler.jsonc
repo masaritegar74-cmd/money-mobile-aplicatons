@@ -1,0 +1,5 @@
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "vibesdk-mobile-template",
+	"compatibility_date": "2026-06-19"
+}

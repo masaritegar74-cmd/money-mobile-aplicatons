@@ -78,7 +78,8 @@ function updateWranglerJsonc() {
 
 function runSetupCommands() {
     const commands = [
-    "bun add @react-native-async-storage/async-storage"
+    "bun add @react-native-async-storage/async-storage",
+    "bun add lucide-react-native react-native-svg"
 ];
     
     if (commands.length === 0) {

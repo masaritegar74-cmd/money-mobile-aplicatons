@@ -77,7 +77,9 @@ function updateWranglerJsonc() {
 }
 
 function runSetupCommands() {
-    const commands = [];
+    const commands = [
+    "bun add @react-native-async-storage/async-storage"
+];
     
     if (commands.length === 0) {
         console.log('⊘ No setup commands to run');

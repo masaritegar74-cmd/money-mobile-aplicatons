@@ -1,5 +1,5 @@
 {
-  "name": "expo-and-react-nativ-nh2vrdflcub4e-1tb7b2s",
+  "name": "expo-router-runner",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,10 +9,10 @@
     "start": "bun scripts/expo-start.mjs",
     "typecheck": "tsc --noEmit",
     "lint": "bun run typecheck",
-    "build": "expo export --platform web --output-dir dist",
-    "prepare": "bun .bootstrap.js || true"
+    "build": "expo export --platform web --output-dir dist"
   },
   "dependencies": {
+    "@react-native-async-storage/async-storage": "^3.1.1",
     "expo": "~54.0.0",
     "expo-constants": "~18.0.0",
     "expo-linking": "~8.0.0",
